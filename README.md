@@ -1,44 +1,47 @@
 # Awesome Clinical Trial Patient Recruitment Sorters [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of **SaaS platforms** and **open-source AI/NLP projects** for **Clinical Trial Patient Recruitment Sorters**, EHR pre-screening, eligibility criterion matching, and precision cohort identification.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Clinical Trial Patient Recruitment Sorters Banner" width="100%">
+</p>
 
-![Clinical Trial Patient Recruitment Ecosystem](https://img.shields.io/badge/Domain-Clinical%20Trials%20%26%20HealthTech-blue.svg)
-![Category](https://img.shields.io/badge/Focus-EHR%20Screening%20%26%20Patient%20Matching-success.svg)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
-![License](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/Domain-Clinical%20Trials%20%26%20HealthTech-blue.svg" alt="Domain" />
+  <img src="https://img.shields.io/badge/Focus-EHR%20Screening%20%26%20Patient%20Matching-success.svg" alt="Focus" />
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" alt="Contributions Welcome" />
+  <img src="https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
-
-## Overview
-
-Clinical trial patient recruitment remains one of the largest bottlenecks in clinical development: **over 80% of clinical trials experience enrollment delays**, and roughly **50% of trial sites fail to meet their individual enrollment targets**. Traditional manual chart review is labor-intensive, error-prone, and misses eligible candidates whose criteria are documented only in unstructured physician notes, pathology narratives, or genomic panels.
-
-**Clinical Trial Patient Recruitment Sorters** leverage electronic health records (EHR/EMR), natural language processing (NLP), large language models (LLMs), and ontologies (SNOMED-CT, RxNorm, ICD-10, OMOP CDM) to parse complex inclusion/exclusion protocols, prescreen candidate cohorts, and accelerate patient-to-trial matching.
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Key Architectural Approaches](#key-architectural-approaches)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Regulatory Considerations](#disclaimer--regulatory-considerations)
+> 🧬 A curated list of **SaaS platforms** and **open-source AI/NLP projects** for **Clinical Trial Patient Recruitment Sorters**, EHR pre-screening, eligibility criterion matching, and precision cohort identification.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📖 Table of Contents
+
+- [🔍 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Key Architectural Approaches](#️-key-architectural-approaches)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚖️ Disclaimer & Regulatory Considerations](#️-disclaimer--regulatory-considerations)
+
+---
+
+## 🔍 Sector Overview & Market Dynamics
 
 The global **Clinical Trial Patient Recruitment Market** is estimated at **$11.7B to $13.2B in 2025–2026** (projected to reach over $22B–$26B by 2033 at an 8.5% CAGR), while the specialized **AI-driven patient recruitment and EHR-matching software sub-segment** accounts for approximately **$720M to $1.14B** and is growing rapidly at >20% CAGR.
 
 The sector exhibits a **hybrid market dynamic—moderately concentrated at the top full-service CRO layer, yet highly fragmented across specialized technology, EHR matching, and recruitment vendors**:
-- **Concentrated Top Tier:** Mega-CROs and global healthcare analytics incumbents (such as IQVIA, ICON plc, Parexel, Labcorp Drug Development, and Syneos Health) control significant shares of outsourced clinical trial development budgets, frequently bundling recruitment within enterprise master service agreements.
-- **Fragmented AI & Digital Sorter Ecosystem:** The specialized patient recruitment software and AI matcher space is non-monopolistic and fragmented. Category innovators, digital networks (Trialbee, Paradigm, Antidote, Inato), and dedicated EHR AI engines (Deep 6 AI / Tempus AI, Reify Health) compete alongside academic open-source frameworks without a single winner-take-all outcome, driven by diverse hospital EHR systems, localized clinical networks, and protocol complexities.
+- 🏢 **Concentrated Top Tier:** Mega-CROs and global healthcare analytics incumbents (such as IQVIA, ICON plc, Parexel, Labcorp Drug Development, and Syneos Health) control significant shares of outsourced clinical trial development budgets, frequently bundling recruitment within enterprise master service agreements.
+- 🧩 **Fragmented AI & Digital Sorter Ecosystem:** The specialized patient recruitment software and AI matcher space is non-monopolistic and fragmented. Category innovators, digital networks (Trialbee, Paradigm, Antidote, Inato), and dedicated EHR AI engines (Deep 6 AI / Tempus AI, Reify Health) compete alongside academic open-source frameworks without a single winner-take-all outcome, driven by diverse hospital EHR systems, localized clinical networks, and protocol complexities.
 
 ---
 
-## SaaS & Hosted Platforms
+## 💼 SaaS & Hosted Platforms
 
 Below is an overview of leading SaaS platforms and hosted networks specializing in clinical trial patient recruitment, trial-site matching, and real-world EHR screening. The table includes company scale (valuation or annual revenue), transparent starting pricing tiers, and specific free tier / trial terms.
 
@@ -59,7 +62,7 @@ Below is an overview of leading SaaS platforms and hosted networks specializing 
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Open-source clinical trial matching repositories enable academic medical centers, health systems, and data scientists to build transparent, self-hosted, and verifiable recruitment workflows.
 
@@ -85,7 +88,7 @@ Open-source clinical trial matching repositories enable academic medical centers
 
 ---
 
-## Key Architectural Approaches
+## 🏗️ Key Architectural Approaches
 
 Modern patient recruitment sorters typically adopt a hybrid pipeline combining structured data filtering with deep semantic reasoning:
 
@@ -110,26 +113,45 @@ Modern patient recruitment sorters typically adopt a hybrid pipeline combining s
            • Explanation rationales, human consent & contact
 ```
 
-1. **Two-Stage Retrieval & Screening:** First-stage fast retrieval filters millions of records down to a candidate cohort using SQL/OMOP indices; second-stage deep LLM reasoning evaluates granular inclusion/exclusion criteria.
-2. **Explainability & Grounding:** Systems like NIH TrialGPT and Stanford VERDICT provide verbatim sentence-level source attributions to eliminate hallucination risks in clinical decision support.
-3. **On-Premise / Air-Gapped Deployment:** Due to HIPAA and GDPR restrictions, solutions commonly utilize local models (Llama-3, Qwen-2.5-Medical, Spark NLP) or zero-data-retention HIPAA BAA cloud endpoints.
+1. ⚡ **Two-Stage Retrieval & Screening:** First-stage fast retrieval filters millions of records down to a candidate cohort using SQL/OMOP indices; second-stage deep LLM reasoning evaluates granular inclusion/exclusion criteria.
+2. 🎯 **Explainability & Grounding:** Systems like NIH TrialGPT and Stanford VERDICT provide verbatim sentence-level source attributions to eliminate hallucination risks in clinical decision support.
+3. 🔐 **On-Premise / Air-Gapped Deployment:** Due to HIPAA and GDPR restrictions, solutions commonly utilize local models (Llama-3, Qwen-2.5-Medical, Spark NLP) or zero-data-retention HIPAA BAA cloud endpoints.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 We welcome community contributions from clinical researchers, data scientists, and healthcare software engineers!
 
-1. **Fork the repository** on GitHub.
-2. **Add or update an entry** in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Clinical-Trial-Patient-Recruitment-Sorters/README.md). Ensure:
+1. 🍴 **Fork the repository** on GitHub.
+2. 📝 **Add or update an entry** in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Clinical-Trial-Patient-Recruitment-Sorters/README.md). Ensure:
    - SaaS platforms include transparent pricing details, company scale metrics, and exact free tier/trial limitations.
    - Open-source projects include official GitHub links, social star badge (`style=social&color=white`), and factual architecture details.
-3. **Submit a Pull Request** with a clear explanation of changes.
+3. 🚀 **Submit a Pull Request** with a clear explanation of changes.
 
 ---
 
-## Disclaimer & Regulatory Considerations
+## 💖 Support & Sponsorship
 
-- **Informational Purposes Only:** This repository is an educational and community-curated list and does not constitute medical, legal, or commercial endorsement.
-- **Regulatory Compliance:** Any software or pipeline processing patient health information (PHI) must strictly adhere to HIPAA, GDPR, 21 CFR Part 11, and institutional review board (IRB) protocols.
-- **Human Clinical Judgment:** Automated matchers and AI sorters serve as assistive prescreening tools. Final eligibility confirmation and consent must be conducted by qualified principal investigators and study coordinators.
+Thank you so much for exploring and supporting **Awesome Clinical Trial Patient Recruitment Sorters**! 🌟
+
+If you found this curated list helpful for your research, site workflows, clinical data platform, or open-source projects, please consider:
+- ⭐ **Starring this repository** to help others discover it.
+- 🍴 **Forking and sharing** with clinical research coordinators, oncologists, biostatisticians, and health-tech teams.
+- ☕ **Buying a coffee or sponsoring the maintainer** via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) to support ongoing curation and maintenance.
+
+Your support helps keep open-source clinical trial matching tools active, transparent, and accessible to all!
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Clinical-Trial-Patient-Recruitment-Sorters&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Clinical-Trial-Patient-Recruitment-Sorters&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer & Regulatory Considerations
+
+- ⚠️ **Informational Purposes Only:** This repository is an educational and community-curated list and does not constitute medical, legal, or commercial endorsement.
+- 📋 **Regulatory Compliance:** Any software or pipeline processing patient health information (PHI) must strictly adhere to HIPAA, GDPR, 21 CFR Part 11, and institutional review board (IRB) protocols.
+- 🩺 **Human Clinical Judgment:** Automated matchers and AI sorters serve as assistive prescreening tools. Final eligibility confirmation and consent must be conducted by qualified principal investigators and study coordinators.
